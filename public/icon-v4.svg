@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <defs>
+    <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#3b82f6"/>
+      <stop offset="50%" stop-color="#7c3aed"/>
+      <stop offset="100%" stop-color="#f97316"/>
+    </linearGradient>
+  </defs>
+  <!-- Background -->
+  <rect width="512" height="512" rx="102" fill="#0f172a"/>
+  
+  <!-- Lettre "i" - style Poppins bold -->
+  <ellipse cx="95" cy="162" rx="32" ry="32" fill="url(#grad)"/>
+  <rect x="63" y="210" width="64" height="160" rx="10" fill="url(#grad)"/>
+  
+  <!-- Lettre "z" - style bold arrondi -->
+  <rect x="145" y="210" width="150" height="50" rx="8" fill="url(#grad)"/>
+  <polygon points="270,260 295,260 185,320 160,320" fill="url(#grad)"/>
+  <rect x="145" y="320" width="150" height="50" rx="8" fill="url(#grad)"/>
+  
+  <!-- Lettre "y" - deux barres + descente -->
+  <rect x="310" y="210" width="55" height="115" rx="8" transform="skewX(-12)" fill="url(#grad)"/>
+  <rect x="385" y="210" width="55" height="115" rx="8" transform="skewX(12)" fill="url(#grad)"/>
+  <rect x="365" y="290" width="55" height="130" rx="8" fill="url(#grad)"/>
+</svg>
